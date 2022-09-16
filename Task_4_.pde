@@ -34,7 +34,7 @@ int getSum(int[]nums)
 
 float getAvg(int sum)
 {
-  avg = (sum/3);
+  avg = (sum/nums.length);
 
   return avg;
 }
